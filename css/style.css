@@ -25,6 +25,7 @@
 html{
     font-size: 62.5%;
     font-family: 'DM Sans', sans-serif;
+    scroll-behavior: smooth;
 }
 header{
     position: relative;
@@ -82,8 +83,12 @@ header img{
     font-size: 1.4rem;
     font-weight: bold;
     text-decoration: none;
-    color: var(--black);
+    color: var(--warm-black);
 }
+.header--title-container a:hover{
+    background-color: var(--bitcoin-orange);
+}
+
 .header--button span{
     display: inline-block;
     width: 13px;
