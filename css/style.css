@@ -498,7 +498,7 @@ footer section {
     text-decoration: none;
     color: var(--just-white);
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 520px){
     .main-tables-container, .product-cards--container {
       display: flex;
       justify-content: space-evenly;
@@ -509,4 +509,12 @@ footer section {
         justify-content: center;
     }
 
+  }
+  @media screen and (min-width: 768px){
+    .product-cards--container{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: nowrap;
+        
+    }
   }
